@@ -1,0 +1,117 @@
+.border-md-right {
+    border-right: 2px solid black;
+    height: 37px;
+  }
+
+  .border-md-bottom{
+    border-right: 1px solid black;
+    height: 37px;
+  }
+  .navbar-nav 
+  .router-link-active,
+  .router-link-exact-active{
+    color: #41b883 !important;
+    font-weight: 800;
+  }
+  
+  .navbar-nav a{
+    color: black !important;
+    font-weight: 700;
+  }
+
+  /*important untuk prioritas*/
+  .nav-item a:hover {
+    color: #00b9f1 !important;
+  }
+
+  .subtitle{
+    color: red;
+  }
+  
+  .subscribe{
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top: 2.5px solid black;
+    border-bottom: 2.5px solid grey;
+    border-left: 2.5px solid black;
+    border-right: 2.5px solid grey;
+
+  }
+
+  .subscribe-button{
+
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top: 2.5px solid grey;
+    border-bottom: 2.5px solid black;
+    border-left: 2.5px solid grey;
+    border-right: 2.5px solid black;
+    background-color: grey;
+    color: white;
+  }
+
+.text-subscribe{
+  font-size: 12px;
+  height: 30px;
+}
+
+.first-footer{
+  background-color: #f6f6f6;
+}
+.footer a{
+  color: black;
+}
+
+.second-footer{
+  background-color: #c8c8c8;
+}
+
+/*Contact*/
+
+.contact-us-text{
+  color: #333;
+  font-size: 28px;
+}
+
+hr.solid{
+  border-top: 1px solid #000000;
+}
+
+form .form-control:hover{
+  border: 1px solid #24a0ed;
+}
+
+/*Login*/
+.or-separator{
+  margin: 20px 0 10px;
+  text-align: center;
+  border-top: 1px solid #ccc;
+}
+
+.or-separator i{
+  padding: 0 10px;
+  background: white;
+  position: relative;
+  font-size: 15px;
+  font-style: normal;
+  top: -13px;
+}
+
+.social-media .btn{
+  margin: 20px 10px 20px 10px; /*top right bottom left*/
+  font-size: 15px;
+  text-align: center;
+  border: silver 1px solid;
+  line-height: 24px;
+}
+
+.social-media .btn img{
+  margin-left: 20px;
+  float: left;
+}
+
+  @media only screen and (max-width: 1200px) {
+    .container{
+      max-width: 95%;
+    }
+  }
